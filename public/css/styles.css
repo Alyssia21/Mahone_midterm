@@ -1,5 +1,21 @@
 body {
-  background: lightblue;
-  color: #333333;
-  margin-top: 20px;
+background-color: #FFF8DC;
+background-image: url("comicback.jpg");
+background-repeat: no-repeat;
+color: black;
+margin-top: 10px;
+background-position: center;
+}
+
+h1 {
+text-align: center;
+text-font
+}
+
+h2 {
+text-align: left;
+}
+nav{
+    text-align: center;
+    padding: 10px;
 }
