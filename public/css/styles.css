@@ -1,21 +1,44 @@
 body {
-background-color: #FFF8DC;
+background-color: #A26F3F;
 background-image: url("comicback.jpg");
 background-repeat: no-repeat;
 color: black;
 margin-top: 10px;
 background-position: center;
+background-attachment: fixed; 
+background-size: cover;
 }
 
 h1 {
 text-align: center;
-text-font
+
 }
 
 h2 {
-text-align: left;
+text-align: center;
 }
 nav{
-    text-align: center;
-    padding: 10px;
+	float: left;
+	text-align: center; 
+	width:400px; 
+	font-weight:bold; 
+	font-size: 1.5em; 
+	padding-top: 10px; 
+	background-color: #A26F3F;
+	width:100%;
+	min-width: 900px; 
+	max-width: 2000px; 
+	box-shadow: 3px,3px,3px, #666666;
 }
+nav ul{
+	background-color: #A26F3F;
+	list-style-type: none;
+	padding-left:0em;}
+	nav a:link{color: black;}
+	nav a:visited{color:white;}
+	nav a:hover{color:grey;}
+}
+
+data{
+    object-position: center;
+    }

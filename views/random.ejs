@@ -9,7 +9,7 @@
 <div class="container">
 <h1> Random Comic of the day!</h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">XCKD COMICS!</a>
+  <a class="navbar-brand" href="#">XKCD Comics!</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,5 +21,9 @@
   </div>
 </nav>
 </div>
+<h2>A Random Comic</h2>
+    <%= data.date %>
+    <p><%= data.explanation %></p>
+    <img src="<%= data.hdurl %>" id ="randocomic" alt="Random Comic" width="500" height="600">
 </body>
 </html>
