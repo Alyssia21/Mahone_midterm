@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> XCKD Comics!</title>
+<title> XKCD Comics!</title>
 <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -11,7 +11,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-    <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+    <a class="nav-link active" href="/">Home </span></a>
     <a class="nav-link" href="/random">Random</a>
     </div>
     </div>
@@ -19,9 +19,11 @@
   </div>
 </nav>
 </div>
-<h2>A Random Comic</h2>
-    <%= data.date %>
-    <p><%= data.explanation %></p>
+    <p> Comic #: <%=data.num%>
+    <p><%= data.safe_title %></p>
+    <p><%= data.transcript %></p>
+    <p> Date: <%=data.month %>/<%=data.day%>/<%=data.year %></p>
     <img src="<%= data.img %>" id ="randocomic" alt="Random Comic" style="width:50%; display: block; margin-left: auto; margin-right: auto" >
+    <button href="/random" class="btn btn-info" role="button"> New Random Comic here</button>
 </body>
 </html>

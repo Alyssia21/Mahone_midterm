@@ -5,6 +5,8 @@ var app = express();
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
+
+
 app.get('/',function(req,res){
     fetch('http://xkcd.com/info.0.json')
     .then(response =>  response.json())
@@ -15,15 +17,23 @@ app.get('/',function(req,res){
     
 })
 
+
 app.get('/random',function(req,res){
-    fetch('http://xkcd.com/614/info.0.json' )
+    let num = getRandom();
+    fetch('http://xkcd.com/'+ num +'/info.0.json' )
     .then(response =>  response.json())
     .then(data => {
    //console.log(data)
     res.render('random',{data:data})
-    });  
-})
+    }); 
+});
 
+function getRandom(){
+     var num = Math.floor((Math.random() * 614) + 1);
+    return num;
+}
+         
+    
     
 app.listen(port,function(){
     console.log('listening on '+port)

@@ -3,10 +3,15 @@ background-color: #A26F3F;
 background-image: url("comicback.jpg");
 background-repeat: no-repeat;
 color: black;
-margin-top: 10px;
 background-position: center;
 background-attachment: fixed; 
 background-size: cover;
+text-align: center;
+Font-family: "Comic Sans MS", cursive, sans-serif;
+font-weight: bold;
+font-size: 40px;
+padding:5%;
+
 }
 
 h1 {
@@ -41,11 +46,14 @@ nav{
 	max-width: 2000px; 
 }
 nav ul{
-	background-color: white;
 	display: inline;
 	padding-left: 8em;}
 	nav a:link{color: white;}
-	nav a:visited{color: grey;}
+	nav a:visited{color: White;}
 	nav a:hover{color:grey;}
 }
+
+
+    
+
 
