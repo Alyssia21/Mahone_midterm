@@ -10,35 +10,42 @@ background-size: cover;
 }
 
 h1 {
+Font-family: "Comic Sans MS", cursive, sans-serif;
+font-weight: bold;
+font-size:60px;
 text-align: center;
+padding:5%;
+padding-bottom:0%;
+text-shadow: 2px 2px #ffffff;
 
 }
 
 h2 {
 text-align: center;
+Font-family: "Comic Sans MS", cursive, sans-serif;
+font-weight: bold;
+font-size: 40px;
+padding:5%;
+text-shadow: 2px 2px #ffffff
 }
+
 nav{
 	float: left;
 	text-align: center; 
-	width:400px; 
+	width:100%; 
 	font-weight:bold; 
-	font-size: 1.5em; 
-	padding-top: 10px; 
-	background-color: #A26F3F;
+	font-size: 30px; 
+	background-color: black;
 	width:100%;
 	min-width: 900px; 
 	max-width: 2000px; 
-	box-shadow: 3px,3px,3px, #666666;
 }
 nav ul{
-	background-color: #A26F3F;
-	list-style-type: none;
-	padding-left:0em;}
+	background-color: white;
+	display: inline;
+	padding-left: 8em;}
 	nav a:link{color: black;}
 	nav a:visited{color:white;}
 	nav a:hover{color:grey;}
 }
 
-data{
-    object-position: center;
-    }
