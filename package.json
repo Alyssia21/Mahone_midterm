@@ -17,12 +17,13 @@
     "url": "https://github.com/Alyssia21/Mahone_midterm/issues"
   },
   "homepage": "https://github.com/Alyssia21/Mahone_midterm#readme",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
-  },
-  "engines": {
-    "node": "12.x"
   }
+  
 }

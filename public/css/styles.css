@@ -45,7 +45,7 @@ nav ul{
 	display: inline;
 	padding-left: 8em;}
 	nav a:link{color: black;}
-	nav a:visited{color:white;}
+	nav a:visited{color:black;}
 	nav a:hover{color:grey;}
 }
 
