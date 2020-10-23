@@ -44,8 +44,8 @@ nav ul{
 	background-color: white;
 	display: inline;
 	padding-left: 8em;}
-	nav a:link{color: black;}
-	nav a:visited{color:black;}
+	nav a:link{color: white;}
+	nav a:visited{color: grey;}
 	nav a:hover{color:grey;}
 }
 
