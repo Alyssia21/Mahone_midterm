@@ -9,7 +9,7 @@ background-size: cover;
 text-align: center;
 Font-family: "Comic Sans MS", cursive, sans-serif;
 font-weight: bold;
-font-size: 40px;
+font-size: 20px;
 padding:5%;
 
 }
@@ -29,7 +29,15 @@ h2 {
 text-align: center;
 Font-family: "Comic Sans MS", cursive, sans-serif;
 font-weight: bold;
-font-size: 40px;
+font-size: 45px;
+padding:5%;
+text-shadow: 2px 2px #ffffff
+}
+h3{
+    ext-align: center;
+Font-family: "Comic Sans MS", cursive, sans-serif;
+font-weight: bold;
+font-size: 30px;
 padding:5%;
 text-shadow: 2px 2px #ffffff
 }
@@ -47,11 +55,15 @@ nav{
 }
 nav ul{
 	display: inline;
-	padding-left: 8em;}
-	nav a:link{color: white;}
-	nav a:visited{color: White;}
-	nav a:hover{color:grey;}
-}
+	padding-left: 8em;
+    }
+
+nav a:link{color: white;}
+nav a:visited{color: white;}
+nav a:hover{color:grey;}
+nav a:active{color:#ebae3d;}
+   
+   
 
 
     

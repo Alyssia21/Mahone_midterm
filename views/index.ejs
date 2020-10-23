@@ -19,9 +19,10 @@
 </div>
 
 <h2>The Daily Comic </h2>
-<p><%= data.title%></p>
+<h3><%= data.title%></h3>
+<h3> Date: <%=data.month %>/<%=data.day%>/<%=data.year %></h3>
 <p><%= data.transcript %></p>
-<p> Date: <%=data.month %>/<%=data.day%>/<%=data.year %></p>
+
 
 <img src= "<%= data.img %>"  alt= "Comic of the day" class = "dailycomic" style="width:50%; display: block; margin-left: auto; margin-right: auto" >
 

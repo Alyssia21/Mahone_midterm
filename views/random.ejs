@@ -19,11 +19,13 @@
   </div>
 </nav>
 </div>
+<a href="/random" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">New Random Comic here!</a>
     <p> Comic #: <%=data.num%>
     <p><%= data.safe_title %></p>
     <p><%= data.transcript %></p>
     <p> Date: <%=data.month %>/<%=data.day%>/<%=data.year %></p>
+
     <img src="<%= data.img %>" id ="randocomic" alt="Random Comic" style="width:50%; display: block; margin-left: auto; margin-right: auto" >
-    <button href="/random" class="btn btn-info" role="button"> New Random Comic here</button>
+    
 </body>
 </html>

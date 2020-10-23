@@ -17,3 +17,4 @@
 *Html
 
 ###**Links**
+https://dailycomic4125.herokuapp.com/random
